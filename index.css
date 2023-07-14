@@ -4,7 +4,8 @@ html {
 }
 body {
   background-color: rgb(255, 255, 255);
-  margin: 100px;
+  width: 800px;
+  margin: 20%;
 
   border: 1px solid red;
 }
@@ -36,6 +37,7 @@ padding: 10px;
 line-height: 1.4;
 
 */
+
 p {
   font-size: 16px;
   font-family: roboto;
@@ -52,6 +54,20 @@ img {
   border-radius: 10px;
 }
 
+.banner {
+  background-color: rgb(255, 249, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+}
+.banner img {
+  box-sizing: border-box;
+  width: 95%;
+  height: 90%;
+  padding: 10px;
+}
+
 .content-row {
   display: flex;
 }
@@ -63,23 +79,28 @@ img {
 
 .container {
   /*======= width property yaratın. Değerini 750px olarak atayın */
+  width: 750px;
   margin: 0 auto;
 }
 
 .container header nav a {
   margin: 0 10px;
-  border: 1px solid lightgray;
-  padding: 20px;
+  border: 1px solid rgb(155, 52, 52);
+  padding: 10px;
   display: inline-block;
-  border-radius: 20px;
+  border-radius: 50px;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
+  background: #e79947;
+
   /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
 }
 
 .container header nav a:hover {
   /*======= background property yaratın ve değeri white olsun.  Sonra, color property yaratın ve değerini yapın. */
+  background: white;
+  color: #e79947;
 }
 
 /*======= Hakkmızda bölümü için aşağıdaki stilleri içeren bir selector yaratın:
