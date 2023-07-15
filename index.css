@@ -64,7 +64,7 @@ img {
 .content-row {
   display: flex;
   flex-direction: row;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .content-row div {
